@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    border: border-box;
+    background-color: white;
+}
+.navbar{
+    height:60px;
+    background-color: black;
+    color: white;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+}
+.nav-first{
+    display:flex;
+    background-color: black;
+    justify-content:center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logo{
+    background-image: url("hero-image.webp");
+    background-size:cover;
+    height: 40px;
+    width:70px;
+}
+.nav-box{
+    color: white;
+    font-weight: 400;
+    background-color: black;
+}
+.nav-box i{
+    background-color: black;
+}
+.box{
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.box:hover{
+    background-color: rgba(46, 40, 40, 0.996);
+}
+.nav-second{
+    display:flex;
+    background-color: black;
+    justify-content:center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 500px;
+}
+.box2{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    color:black;
+}
+.box2:hover{
+    background-color: rgb(214, 209, 209);
+}
+.nav2{
+    height:50px;
+    background-color: white;
+    color:black;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    position: fixed;
+}
+.nav-ride {
+    margin-left: 120px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+.nav-ops{
+    margin-left: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(104, 103, 103);
+}
+.nav-ops a{
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+.block1{
+    height:700px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+}
+.input1{
+    height:400px;
+    background-color: white;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+.first{
+    font-size: 3rem;
+    font-weight:600;
+}
+.second{
+    color:rgb(44, 42, 42);
+    margin-top: 20px;
+}
+.search1{
+    height:40px;
+    width: 380px;
+    background-color: rgb(228, 224, 224);
+    display: flex;
+    border: 1.5px solid transparent;
+    justify-content:flex-start;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 6px;
+    border-radius: 9px;
+}
+.search1 i{
+    font-size: 0.6rem;
+    background-color: rgb(228, 224, 224);
+    padding-right: 10px;
+}
+
+
+.search-input{
+    height:40px;
+    width:250px;
+    background-color: rgb(228, 224, 224);
+    border:1px transparent;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-top: 3px;
+    color:rgb(176, 176, 176);
+    padding-right: 60px;
+}
+.search2{
+    height:40px;
+    width: 380px;
+    background-color: rgb(228, 224, 224);
+    display: flex;
+    border: 1.5px solid transparent;
+    justify-content:flex-start;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 6px;
+    border-radius: 9px;
+}
+.search2 i{
+    font-size: 0.6rem;
+    background-color: rgb(228, 224, 224);
+    padding-right: 10px;
+}
+.button{
+    background-color: black;
+    color:white;
+    height:48px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.button:hover{
+    transition: 0.5s;
+    background-color: rgb(65, 62, 62);
+}
+.pic1{
+    padding-left: 170px;
+    padding-top: 80px;
+    margin-top: 0px;
+}
+.block2{
+    height:500px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+pic2{
+    margin-top: 50px;
+    margin-left: 45px;
+}
+.input2{
+    height:400px;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.input2 h2{
+    font-size: 2.3rem;
+}
+.input2 p{
+    padding-top: 15px;
+    color:rgb(71, 71, 71);
+}
+.loader{
+    height:0.2px;
+    width:80px;
+    background-color:rgb(193, 191, 191);
+    margin-top: 5px;
+ }
+ .inner{
+    height:0.2px;
+    width:0px;
+    background-color:black;
+    border-radius:10px;   
+    
+ }
+ .loader:hover{
+    animation: loader 2s 0.5;
+ }
+ @keyframes loader{
+    0%{
+    width:0px;
+    }
+    100%
+    {width:100px;}
+ }
+ .use{
+    font-size: 2.2rem;
+    margin-left: 150px;
+    font-weight: 790;
+ }
+ .block3{
+    height:500px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:100px;
+    margin-top: 15px;
+ }
+ .block3_box{
+    background-color: white;
+    padding:20px
+ }
+ .images{
+    display:flex;
+    justify-content: space-evenly;
+ }
+ .block3_box img{
+    height:350px;
+    width:350px;
+    border: 1px solid transparent;
+    margin-bottom: 20px;
+ }
+ .block3_box p{
+    padding-top: 19px;
+    color:rgb(70, 69, 69);
+ }
+ .block4{
+    height:500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color:white;
+    font-size: 1.2rem;
+ }
+
+.look{
+    background-color: black;
+    font-size: 2.3rem;
+    font-weight:790;
+    color: white;
+}
+.input3 ul{
+    background-color: black;
+}
+.input3 li{
+    background-color: black;
+}
+.input3 p{
+    padding: 10px;
+    background-color: black;
+ }
+ .input3 u{
+    background-color: black;
+ }
+ .button1{
+    background-color: white;
+    color:black;
+    height:48px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+ }
+ .button1:hover{
+    background-color: rgb(196, 194, 194);
+    transition: 0.5s;
+}
+ .pic3{
+    background-color: black;
+ }
+ .block5{
+    height:300px;
+    background-color: white;
+    color:black;
+    font-size: 1rem;
+    margin: 200px;
+    margin-top: 70px;
+    justify-content: space-evenly;
+ }
+ .head2{
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: rgb(59, 59, 59);
+ }
+ .cart{
+    display:flex;
+    height:20px;
+    margin-left: 50px;
+    font-size: 1.2rem;
+ }
+ .icon{
+    width: 800px;
+    display:flex ;
+    justify-content:end;
+    align-items: center;
+ }
+ .block5 hr{
+    width:1100px;
+    padding-left: 130px;
+ }
+ 
+ .hide{
+    color:white;
+ }
+ .hide:hover{
+    height:150px;
+    color:rgb(87, 87, 87);
+    font-size: 1.2rem;
+    margin-top: 50px;
+ }
+.space{
+    padding-left: 100px;
+}
